@@ -25,6 +25,18 @@ def test_invalid_input():
     def test_prime_factors_of_8():
     """Test that when input is 8, the list [2, 2, 2] is returned"""
     assert generate_prime_factors(8) == [2, 2, 2]
+    def test_prime_factors_of_9():
+    """Test that when input is 9, the list [3, 3] is returned"""
+    assert generate_prime_factors(9) == [3, 3]
+    
+
+
+
+
+
+
+
+
 
 
 
