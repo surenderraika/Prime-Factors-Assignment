@@ -19,6 +19,10 @@ def test_invalid_input():
     def test_prime_factors_of_4():
     """Test that when input is 4, the list [2, 2] is returned"""
     assert generate_prime_factors(4) == [2, 2]
+    def test_prime_factors_of_6():
+    """Test that when input is 6, the list [2, 3] is returned"""
+    assert generate_prime_factors(6) == [2, 3]
+
 
 
     
