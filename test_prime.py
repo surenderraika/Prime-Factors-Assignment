@@ -10,5 +10,9 @@ def test_invalid_input():
         def test_prime_factors_of_1():
     """Test that when input is 1, an empty list is returned"""
     assert generate_prime_factors(1) == []
+    def test_prime_factors_of_2():
+    """Test that when input is 2, the list [2] is returned"""
+    assert generate_prime_factors(2) == [2]
+    
         
 
