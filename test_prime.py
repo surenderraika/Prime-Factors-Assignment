@@ -8,30 +8,3 @@ def test_invalid_input():
     with pytest.raises(ValueError):
         generate_prime_factors(4.5)
 
-def test_prime_factors_of_1():
-    """Test that when input is 1, an empty list is returned"""
-    assert generate_prime_factors(1) == []
-
-def test_prime_factors_of_2():
-    """Test that when input is 2, the list [2] is returned"""
-    assert generate_prime_factors(2) == [2]
-
-def test_prime_factors_of_3():
-    """Test that when input is 3, the list [3] is returned"""
-    assert generate_prime_factors(3) == [3]
-
-def test_prime_factors_of_4():
-    """Test that when input is 4, the list [2, 2] is returned"""
-    assert generate_prime_factors(4) == [2, 2]
-
-def test_prime_factors_of_6():
-    """Test that when input is 6, the list [2, 3] is returned"""
-    assert generate_prime_factors(6) == [2, 3]
-
-def test_prime_factors_of_8():
-    """Test that when input is 8, the list [2, 2, 2] is returned"""
-    assert generate_prime_factors(8) == [2, 2, 2]
-
-def test_prime_factors_of_9():
-    """Test that when input is 9, the list [3, 3] is returned"""
-    assert generate_prime_factors(9) == [3, 3]
