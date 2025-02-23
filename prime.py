@@ -8,8 +8,7 @@ def generate_prime_factors(n):
     if not isinstance(n, int):
         raise ValueError("Input must be an integer")
     if n == 1:
-        return []
-    
+        return []    
     factors = []
     divisor = 2
     while n > 1:
