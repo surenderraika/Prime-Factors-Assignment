@@ -13,6 +13,11 @@ def test_invalid_input():
     def test_prime_factors_of_2():
     """Test that when input is 2, the list [2] is returned"""
     assert generate_prime_factors(2) == [2]
+    def test_prime_factors_of_3():
+    """Test that when input is 3, the list [3] is returned"""
+    assert generate_prime_factors(3) == [3]
+
+    
     
         
 
