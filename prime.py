@@ -2,7 +2,6 @@
 Prime Factors Module
 This module contains a function to generate prime factors of a given number.
 """
-
 def generate_prime_factors(n):
     """Returns a list of prime factors for the given number n."""
     if not isinstance(n, int):
